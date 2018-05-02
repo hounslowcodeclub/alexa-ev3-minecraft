@@ -25,7 +25,7 @@ const languageStrings = {
     }
 };
 
-const baseUrl = 'http://alexaev3api.azurewebsites.net/';
+const baseUrl = 'https://api-summit-2017-apis-at-home-api-pggfprdxqk.now.sh/';
 
 const clawOperationValueMap = {
     'schließen': 'close',
