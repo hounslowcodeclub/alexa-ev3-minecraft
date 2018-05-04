@@ -1,7 +1,7 @@
 {
     "interactionModel": {
         "languageModel": {
-            "invocationName": "robot",
+            "invocationName": "pet",
             "intents": [
                 {
                     "name": "AMAZON.CancelIntent",
@@ -27,16 +27,14 @@
                         }
                     ],
                     "samples": [
-                        "Zange {ClawOperation} "
+                        "Claws {ClawOperation} "
                     ]
                 },
                 {
                     "name": "DoItDudeIntent",
                     "slots": [],
                     "samples": [
-                        "Do it dude",
-                        "Hopp",
-                        "Auf"
+                        "Do it dude"
                     ]
                 },
                 {
@@ -51,16 +49,14 @@
                         }
                     ],
                     "samples": [
-                        "Fahre {MoveOperation}"
+                        "Move {MoveOperation}"
                     ]
                 },
                 {
                     "name": "StopIntent",
                     "slots": [],
                     "samples": [
-                        "Halt",
-                        "Anhalten",
-                        "Nicht mehr bewegen"
+                        "Stop"
                     ]
                 }
             ],
@@ -70,12 +66,12 @@
                     "values": [
                         {
                             "name": {
-                                "value": "Öffnen"
+                                "value": "Open"
                             }
                         },
                         {
                             "name": {
-                                "value": "Schließen"
+                                "value": "Close"
                             }
                         }
                     ]
@@ -85,12 +81,12 @@
                     "values": [
                         {
                             "name": {
-                                "value": "Vorwärts"
+                                "value": "Forwards"
                             }
                         },
                         {
                             "name": {
-                                "value": "Rückwärts"
+                                "value": "Backwards"
                             }
                         }
                     ]
@@ -151,7 +147,7 @@
                 "variations": [
                     {
                         "type": "PlainText",
-                        "value": "Was soll ich mit der Zange tun?"
+                        "value": "What should robot do with the claws?"
                     }
                 ]
             },
@@ -160,7 +156,7 @@
                 "variations": [
                     {
                         "type": "PlainText",
-                        "value": "Soll der Roboter vorwärts oder rückwärts fahren?"
+                        "value": "Should the robot drive forwards or backwards?"
                     }
                 ]
             }
