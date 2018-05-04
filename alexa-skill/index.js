@@ -105,7 +105,7 @@ const handlers = {
 
 exports.handler = function (event, context, callback) {
     const alexa = Alexa.handler(event, context, callback);
-    alexa.APP_ID = APP_ID;
+    alexa.appId = APP_ID;
     alexa.resources = languageStrings;
     alexa.registerHandlers(handlers);
     alexa.execute();
